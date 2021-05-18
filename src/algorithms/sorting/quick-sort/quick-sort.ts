@@ -1,5 +1,3 @@
-// import { merge } from "../merge-sort/merge-sort";
-
 export function quickSort<T>(input: T[]): T[] {
   if (input.length <= 1) {
     return input;
